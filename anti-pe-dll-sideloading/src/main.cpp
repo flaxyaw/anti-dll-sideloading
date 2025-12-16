@@ -131,7 +131,7 @@ int main() {
 			}
 
 			if (isDLL(filePath)) {
-				//todo: hook ALL LL like functions and block execution
+				//todo: hook ALL LL like functions and block execution (in dll later on)
 				printf("%s is DLL\n", fileName.c_str());
 			}
 		}
